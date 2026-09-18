@@ -1,0 +1,1449 @@
+table{
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    background-color: white;
+}
+td{
+    border: 1px solid blue;
+    padding: 15px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    margin: 20px 0;
+    animation: titleMove 2s ease-in-out;
+}
+@keyframes titleMove{
+    from{
+        opacity: 0;
+        transform: translateY(-20); 
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+td a{
+    display: inline-block;
+    color: blue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+td a:hover{
+    color: white;
+    background-color: blue;
+    transform: scale(1.1);
+    border-radius: 8px;
+}
+Td a {
+    Display: inline-block;
+    Min-width: 180px;
+    Padding: 12px 20px;
+    Background-color: #f4c542;
+    Color: #222;
+    Border-radius: 8px;
+    Transition: 0.3s;
+}
+Td a:hover {
+    Background-color: #198754;
+    Color: white;
+    Transform: scale(1.1);
+    Border-radius: 8px;
+}
+.logo-section {
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Gap: 30px;
+    Padding: 20px;
+}
+
+.logo {
+    Width: 150px;
+    Height: 150px;
+    Object-fit: contain;
+}
+
+.logo-section h1 {
+    Color: #198754;
+    Font-size: 32px;
+    Animation: titleMove 2s ease-in-out;
+}
+@keyframes titleMove {
+    From {
+        Opacity: 0;
+        Transform: translateX(-20px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateX(0);
+    }
+}
+Td a {
+    Display: inline-block;
+    Min-width: 180px;
+    Padding: 12px 20px;
+    Background-color: #f4c542;
+    Color: #222;
+    Text-decoration: none;
+    Font-size: 20px;
+    Font-weight: bold;
+    Border-radius: 8px;
+    Transition: 0.3s;
+}
+
+Td a:hover {
+    Background-color: #198754;
+    Color: white;
+    Transform: scale(1.05);
+}
+Td a[href=”index.html”]::before {
+    Content: “⌂ “;
+}
+
+Td a[href=”about.html”]::before {
+    Content: “👤 “;
+}
+
+Td a[href=”service.html”]::before {
+    Content: “⚡ “;
+}
+
+Td a[href=”contact us.html”]::before {
+    Content: “✉ “;
+}
+
+Td a[href=”enquire.html”]::before {
+    Content: “📝 “;
+}
+Table tr {
+    Transition: 0.3s;
+}
+
+Table tr:hover {
+    Background-color: #f8f4df;
+}
+A[href=”index.html”] {
+    Background-color: #198754;
+    Color: white;
+}
+
+A[href=”index.html”]:hover {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Footer {
+    Background-color: #198754;
+    Color: white;
+    Text-align: center;
+    Padding: 20px;
+    Margin-top: 20px;
+}
+
+Footer p {
+    Margin: 0;
+}
+
+@media (max-width: 600px) {
+    Table {
+        Width: 100%;
+    }
+
+    .logo-section {
+        Flex-direction: column;
+    }
+
+    .logo {
+        Width: 120px;
+        Height: 120px;
+    }
+
+    .logo-section h1 {
+        Font-size: 24px;
+    }
+
+    Td a {
+        Min-width: 140px;
+        Font-size: 18px;
+    }
+}
+
+.logo {
+    Width: 150px;
+    Height: 150px;
+    Object-fit: contain;
+    Transition: 0.5s;
+}
+
+.logo:hover {
+    Transform: rotate(5deg) scale(1.05);
+}
+Td a {
+    Animation: linkAppear 1s ease-in-out;
+}
+
+@keyframes linkAppear {
+    From {
+        Opacity: 0;
+        Transform: translateY(15px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateY(0);
+    }
+}
+Table {
+    Margin-top: 30px;
+    Margin-bottom: 30px;
+}
+
+Td {
+    Padding: 20px;
+}
+Table {
+    Box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+Table {
+    Border-radius: 10px;
+    Overflow: hidden;
+}
+Table {
+    Transition: 0.3s;
+}
+
+Table:hover {
+    Transform: translateY(-3px);
+}
+Td a::before {
+    Font-size: 22px;
+}
+Td a::before {
+    Margin-right: 8px;
+}
+Td:hover {
+    Background-color: #fff8dc;
+}
+Td a {
+    Letter-spacing: 0.5px;
+}
+Td a {
+    Box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+Td a {
+    Transition: 0.3s ease;
+}
+.logo {
+    Width: 170px;
+    Height: 170px;
+}
+.logo {
+    Transition: 0.5s ease;
+}
+.logo-section h1 {
+    Text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+Td a {
+    Border-radius: 12px;
+}
+Td a:active {
+    Transform: scale(0.95);
+}
+Td:hover {
+    Transform: scale(1.01);
+    Transition: 0.3s ease;
+}
+Td a {
+    Font-weight: 700;
+}
+Body {
+    Animation: pageFade 1s ease-in;
+}
+
+@keyframes pageFade {
+    From {
+        Opacity: 0;
+    }
+
+    To {
+        Opacity: 1;
+    }
+}
+Footer p {
+    Font-size: 16px;
+    Font-weight: bold;
+}
+Table {
+    Max-width: 1200px;
+}
+@media (max-width: 400px) {
+    .logo-section h1 {
+        Font-size: 28px;
+    }
+
+    Td a {
+        Min-width: 120px;
+        Font-size: 16px;
+        Padding: 10px;
+    }
+}
+.logo-section h1 {
+    Font-weight: bold;
+    Letter-spacing: 1px;
+}
+H2 {
+    Text-align: center;
+    Color: #198754;
+    Font-size: 30px;
+    Margin: 30px 0 20px;
+}
+Body > p {
+    Max-width: 900px;
+    Margin: 0 auto 25px;
+    Text-align: center;
+    Font-size: 18px;
+    Line-height: 1.8;
+}
+.logo-section {
+    Display: flex;
+    Align-items: center;
+    Gap: 20px;
+    Padding: 20px;
+}
+
+.logo-section h1 {
+    Margin: 0;
+}
+.logo-section {
+    Background-color: #198754;
+}
+.logo-section h1 {
+    Color: white;
+    Font-size: 36px;
+    Margin: 0;
+}
+Th a {
+    Display: inline-block;
+    Padding: 12px 20px;
+    Background-color: #f4c542;
+    Color: #222;
+    Text-decoration: none;
+    Font-size: 20px;
+    Font-weight: bold;
+    Border-radius: 8px;
+    Transition: 0.3s;
+}
+
+Th a:hover {
+    Background-color: #198754;
+    Color: white;
+    Transform: scale(1.05);
+}
+.mission-vision {
+    Display: flex;
+    Gap: 30px;
+    Justify-content: center;
+    Margin: 30px auto;
+    Max-width: 900px;
+}
+
+.mission,
+.vision {
+    Flex: 1;
+    Padding: 25px;
+    Background-color: white;
+    Border: 2px solid #198754;
+    Border-radius: 10px;
+    Text-align: center;
+}
+
+.mission p,
+.vision p {
+    Font-size: 17px;
+    Line-height: 1.6;
+}
+.mission h3,
+.vision h3 {
+    Color: #198754;
+    Font-size: 26px;
+    Margin-bottom: 15px;
+}
+.mission,
+.vision {
+    Transition: 0.3s ease;
+}
+
+.mission:hover,
+.vision:hover {
+    Transform: translateY(-5px);
+    Box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+    .mission-vision {
+        Flex-direction: column;
+    }
+}
+H2 {
+    Border-bottom: 3px solid #f4c542;
+    Padding-bottom: 10px;
+}
+Body > table {
+    Width: 90%;
+    Margin: 20px auto;
+    Border-collapse: collapse;
+    Background-color: white;
+}
+Th a[href=”index.html”]::before {
+    Content: “⌂ “;
+}
+
+Th a[href=”About.html”]::before {
+    Content: “👤 “;
+}
+
+Th a[href=”service.html”]::before {
+    Content: “⚡ “;
+}
+
+Th a[href=”enquire.html”]::before {
+    Content: “📝 “;
+}
+
+Th a[href=”contact us.html”]::before {
+    Content: “✉ “;
+}
+Body > p {
+    Background-color: white;
+    Padding: 25px;
+    Border-radius: 10px;
+    Box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+Th a:hover {
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mission,
+.vision {
+    Background-color: #f4f8f5;
+}
+@media (max-width: 600px) {
+    Body > p {
+        Font-size: 16px;
+        Padding: 15px;
+    }
+}
+H2 {
+    Margin-bottom: 30px;
+}
+Th a {
+    Min-width: 150px;
+}
+Body > table {
+    Margin-top: 25px;
+    Margin-bottom: 30px;
+}
+.mission p,
+.vision p {
+    Color: #333;
+}
+.mission,
+.vision {
+    Border-top: 4px solid #f4c542;
+}
+.mission h3,
+.vision h3 {
+    Text-transform: uppercase;
+}
+.mission p,
+.vision p {
+    Margin: 0;
+}
+.mission,
+.vision {
+    Animation: boxAppear 1s ease-in-out;
+}
+
+@keyframes boxAppear {
+    From {
+        Opacity: 0;
+        Transform: translateY(15px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateY(0);
+    }
+}
+.mission:hover,
+.vision:hover {
+    Border-color: #f4c542;
+}
+Th a[href=”About.html”] {
+    Background-color: #198754;
+    Color: white;
+}
+
+Th a[href=”About.html”]:hover {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Body > table th a[href=”index.html”] {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Footer {
+    Background-color: #198754;
+    Color: white;
+    Text-align: center;
+    Padding: 20px;
+    Margin-top: 40px;
+}
+Footer {
+    Border-top: 3px solid #f4c542;
+}
+.mission p,
+.vision p {
+    Transition: 0.3s ease;
+}
+
+.mission:hover p,
+.vision:hover p {
+    Transform: scale(1.02);
+}
+@media (max-width: 600px) {
+    .logo-section {
+        Flex-direction: column;
+        Text-align: center;
+    }
+}
+H2 {
+    Animation: headingAppear 1s ease-in-out;
+}
+
+@keyframes headingAppear {
+    From {
+        Opacity: 0;
+        Transform: translateY(-10px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateY(0);
+    }
+}
+Body > table {
+    Box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+Body > table {
+    Border-radius: 8px;
+    Overflow: hidden;
+}
+Body > p {
+    Border-left: 4px solid #f4c542;
+}
+Th a {
+    Transition: 0.3s ease;
+}
+
+Th a:hover {
+    Transform: translateY(-2px);
+}
+Body > p {
+    Margin-top: 20px;
+    Margin-bottom: 30px;
+}
+Body > table {
+    Border-top: 3px solid #f4c542;
+}
+Body {
+    Background-color: #f4f8f5;
+}
+Body > p {
+    Width: 90%;
+}
+Th a {
+    Margin: 3px;
+}
+.mission h3,
+.vision h3 {
+    Letter-spacing: 1px;
+}
+H2 {
+    Transition: 0.3s ease;
+}
+
+H2:hover {
+    Transform: scale(1.02);
+}
+.faq {
+    Width: 90%;
+    Max-width: 900px;
+    Margin: 30px auto;
+}
+
+.faq-item {
+    Background-color: white;
+    Border: 2px solid #198754;
+    Border-radius: 10px;
+    Padding: 20px;
+    Margin-bottom: 15px;
+}
+.faq-item h3 {
+    Color: #198754;
+    Margin-bottom: 10px;
+}
+
+.faq-item p {
+    Font-size: 16px;
+    Margin: 0;
+}
+Form {
+    Width: 90%;
+    Max-width: 700px;
+    Margin: 30px auto;
+}
+Form table {
+    Width: 100%;
+    Background-color: white;
+    Padding: 20px;
+    Border-radius: 10px;
+}
+Input {
+    Padding: 10px;
+    Border: 1px solid #198754;
+    Border-radius: 6px;
+    Width: 100%;
+}
+Input[type=”submit”] {
+    Background-color: #198754;
+    Color: white;
+    Font-weight: bold;
+    Cursor: pointer;
+    Width: 120px;
+}
+Input[type=”submit”]:hover {
+    Background-color: #f4c542;
+    Color: #222;
+    Transform: scale(1.05);
+}
+Form label {
+    Font-weight: bold;
+    Color: #333;
+}
+Form td {
+    Padding: 12px;
+}
+Input:focus {
+    Outline: none;
+    Border: 2px solid #f4c542;
+}
+.faq-item {
+    Transition: 0.3s ease;
+}
+
+.faq-item:hover {
+    Transform: translateY(-3px);
+    Box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 600px) {
+    .faq {
+        Width: 100%;
+    }
+
+    .faq-item {
+        Padding: 15px;
+    }
+}
+.faq + h2 {
+    Color: #198754;
+}
+Body h2 {
+    Color: #198754;
+    Text-align: center;
+}
+Body h2 {
+    Border-bottom: 3px solid #f4c542;
+    Padding-bottom: 10px;
+}
+.faq-item {
+    Animation: faqAppear 0.8s ease-in-out;
+}
+
+@keyframes faqAppear {
+    From {
+        Opacity: 0;
+        Transform: translateY(10px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateY(0);
+    }
+}
+@media (max-width: 600px) {
+    Form {
+        Width: 100%;
+    }
+
+    Form table {
+        Width: 100%;
+    }
+
+    Form td {
+        Display: block;
+        Width: 100%;
+    }
+}
+Th a[href=”enquire.html”] {
+    Background-color: #198754;
+    Color: white;
+}
+
+Body > table th a[href=”index.html”],
+Body > table th a[href=”About.html”] {
+    Background-color: #f4c542;
+    Color: #222;
+}
+H2 {
+    Font-size: 30px;
+    Margin: 30px 0;
+}
+Form table {
+    Border: 2px solid #f4c542;
+}
+.faq-item h3 {
+    Font-size: 20px;
+}
+.faq {
+    Margin-bottom: 40px;
+}
+.logo-section {
+    Display: flex;
+    Align-items: center;
+    Gap: 20px;
+    Padding: 25px;
+    Background-color: #198754;
+}
+.logo {
+    Width: 170px;
+    Height: 170px;
+    Object-fit: contain;
+}
+.logo-section h1 {
+    Color: white;
+    Font-size: 36px;
+    Margin: 0;
+}
+@media (max-width: 600px) {
+    .logo-section {
+        Flex-direction: column;
+        Text-align: center;
+    }
+
+    .logo {
+        Width: 130px;
+        Height: 130px;
+    }
+}
+Th a[href=”index.html”]::before {
+    Content: “⌂ “;
+}
+
+Th a[href=”About.html”]::before {
+    Content: “👤 “;
+}
+
+Th a[href=”service.html”]::before {
+    Content: “⚡ “;
+}
+
+Th a[href=”enquire.html”]::before {
+    Content: “📝 “;
+}
+
+Th a[href=”contact us.html”]::before {
+    Content: “✉ “;
+}
+.logo-section {
+    Box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+Form input {
+    Font-size: 16px;
+}
+.faq-item h3 {
+    Transition: 0.3s ease;
+}
+
+.faq-item:hover h3 {
+    Color: #f4c542;
+}
+Input[type=”reset”] {
+    Background-color: #f4c542;
+    Color: #222;
+    Font-weight: bold;
+    Cursor: pointer;
+    Width: 120px;
+    Margin-left: 10px;
+}
+
+Input[type=”reset”]:hover {
+    Background-color: #198754;
+    Color: white;
+    Transform: scale(1.05);
+}
+Textarea {
+    Width: 100%;
+    Padding: 10px;
+    Border: 1px solid #198754;
+    Border-radius: 6px;
+    Font-size: 16px;
+    Resize: vertical;
+}
+Textarea:focus {
+    Outline: none;
+    Border: 2px solid #f4c542;
+}
+Input[type=”submit”],
+Input[type=”reset”] {
+    Padding: 10px 15px;
+    Border-radius: 6px;
+    Border: none;
+}
+Form td:first-child {
+    Width: 30%;
+    Text-align: right;
+}
+
+.faq-item p {
+    Color: #555;
+    Line-height: 1.6;
+}
+Input[type=”submit”],
+Input[type=”reset”] {
+    Display: inline-block;
+    Width: 120px;
+    Margin: 5px;
+}
+Th a[href=”about.html”] {
+    Background-color: #198754;
+    Color: white;
+}
+
+Th a[href=”about.html”]:hover {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Body > table th a[href=”index.html”],
+Body > table th a[href=”About.html”],
+Body > table th a[href=”enquire.html”],
+Body > table th a[href=”contact us.html”] {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Body > table th a[href=”Products.html”] {
+    Background-color: #198754 !important;
+    Color: white !important;
+}
+Body h2 {
+    Color: #198754;
+    Text-align: center;
+    Border-bottom: 3px solid #f4c542;
+    Padding-bottom: 10px;
+    Font-size: 30px;
+    Margin: 30px 0;
+}
+Body h3 {
+    Color: #198754;
+    Text-align: center;
+    Font-size: 24px;
+    Margin-top: 25px;
+    Margin-bottom: 10px;
+}
+Body ul {
+    Width: 80%;
+    Max-width: 700px;
+    Margin: 0 auto 25px;
+    Padding: 15px;
+    Background-color: white;
+    Border: 2px solid #198754;
+    Border-radius: 10px;
+}
+Body li {
+    Font-size: 17px;
+    Padding: 8px;
+    Color: #333;
+}
+Body li:hover {
+    Background-color: #fff8dc;
+    Color: #198754;
+    Transition: 0.3s ease;
+}
+Body h3:nth-of-type(1)::before {
+    Content: “💡 “;
+}
+
+Body h3:nth-of-type(2)::before {
+    Content: “🔧 “;
+}
+
+Body h3:nth-of-type(3)::before {
+    Content: “🛠️ “;
+}
+
+Body h3:nth-of-type(4)::before {
+    Content: “🔍 “;
+}
+Body ul {
+    Transition: 0.3s ease;
+}
+
+Body ul:hover {
+    Transform: translateY(-5px);
+    Box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+Body ul li {
+    List-style: none;
+    Text-align: center;
+}
+.services-intro {
+    Text-align: center;
+    Font-size: 18px;
+    Max-width: 800px;
+    Margin: 20px auto 30px;
+    Color: #555;
+}
+Body ul {
+    Border-top: 4px solid #f4c542;
+}
+@media (max-width: 600px) {
+    .services-intro {
+        Font-size: 16px;
+        Width: 90%;
+    }
+}
+Body ul {
+    Animation: serviceAppear 0.8s ease-in-out;
+}
+
+@keyframes serviceAppear {
+    From {
+        Opacity: 0;
+        Transform: translateY(15px);
+    }
+
+    To {
+        Opacity: 1;
+        Transform: translateY(0);
+    }
+}
+Body h3 {
+    Font-weight: bold;
+    Letter-spacing: 1px;
+}
+
+
+Body > table th a[href=”index.html”],
+Body > table th a[href=”About.html”],
+Body > table th a[href=”service.html”],
+Body > table th a[href=”enquire.html”] {
+    Background-color: #f4c542;
+    Color: #222;
+}
+Body > table th a[href=”Products.html”] {
+    Background-color: #f4c542 !important;
+    Color: #222 !important;
+}
+
+
+
+.contact-table td {
+    Padding: 15px;
+    Border: 1px solid #198754;
+    Font-size: 17px;
+}
+.contact-table td:first-child {
+    Font-weight: bold;
+    Color: #198754;
+    Width: 35%;
+}
+.contact-table td:first-child {
+    Font-weight: bold;
+    Color: #198754;
+    Width: 35%;
+}
+.contact-table tr:hover {
+    Background-color: #fff8dc;
+    Transition: 0.3s ease;
+}
+.contact-table tr:nth-child(1) td:first-child::before {
+    Content: “📞 “;
+}
+
+.contact-table tr:nth-child(2) td:first-child::before {
+    Content: “✉️ “;
+}
+
+.contact-table tr:nth-child(3) td:first-child::before {
+    Content: “📍 “;
+}
+.navigation-table th a {
+    Background-color: #f4c542 !important;
+    Color: #222 !important;
+    Display: block;
+    Text-decoration: none;
+    Padding: 12px 10px;
+    Font-size: 18px;
+    Font-weight: bold;
+    Border-radius: 8px;
+    Transition: 0.3s ease;
+}
+
+.navigation-table th a:hover {
+    Background-color: #198754 !important;
+    Color: white !important;
+    Transform: scale(1.05);
+}
+
+.navigation-table th a:active {
+    Background-color: #198754 !important;
+    Color: white !important;
+}
+
+.navigation-table th a.active {
+    Background-color: #198754 !important;
+    Color: white !important;
+}
+
+•	{
+    Box-sizing: border-box;
+}
+
+Body {
+    Margin: 0;
+    Padding: 10px;
+    Width: 100%;
+    Overflow-x: hidden;
+}
+
+
+.logo-section {
+    Width: 100%;
+    Display: flex;
+    Align-items: center;
+    Justify-content: center;
+    Gap: 20px;
+    Padding: 20px;
+}
+
+.logo {
+    Max-width: 170px;
+    Width: 100%;
+    Height: auto;
+}
+
+.logo-section h1 {
+    Font-size: 36px;
+    Text-align: center;
+}
+
+
+.navigation-table {
+    Width: 100% !important;
+    Max-width: 1200px;
+    Margin: 20px auto !important;
+    Table-layout: fixed;
+}
+
+.navigation-table th {
+    Width: 20%;
+    Padding: 5px;
+}
+
+.navigation-table th a {
+    Display: block;
+    Width: 100%;
+    Min-width: 0;
+    Padding: 12px 5px;
+    Font-size: 18px;
+    White-space: normal;
+    Text-align: center;
+}
+
+
+Table {
+    Max-width: 1200px;
+    Width: 90%;
+}
+
+Img {
+    Max-width: 100%;
+    Height: auto;
+}
+
+
+H1 {
+    Max-width: 100%;
+}
+
+H2 {
+    Font-size: 30px;
+    Max-width: 100%;
+}
+
+P {
+    Max-width: 100%;
+}
+
+
+Form {
+    Width: 90%;
+    Max-width: 700px;
+    Margin: 30px auto;
+}
+
+Form table {
+    Width: 100%;
+}
+
+Input,
+Textarea {
+    Max-width: 100%;
+}
+
+
+Body ul {
+    Width: 80%;
+    Max-width: 700px;
+}
+
+.mission-vision {
+    Width: 90%;
+    Max-width: 900px;
+}
+
+
+.contact-table {
+    Width: 80%;
+    Max-width: 700px;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .logo-section {
+        Padding: 15px;
+    }
+
+    .logo {
+        Width: 130px;
+    }
+
+    .logo-section h1 {
+        Font-size: 30px;
+    }
+
+    .navigation-table th a {
+        Font-size: 16px;
+        Padding: 10px 3px;
+    }
+
+    Table {
+        Width: 95%;
+    }
+
+    H2 {
+        Font-size: 26px;
+    }
+
+    Body ul {
+        Width: 90%;
+    }
+
+    .contact-table {
+        Width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    Body {
+        Padding: 5px;
+    }
+
+
+    .logo-section {
+        Flex-direction: column;
+        Gap: 10px;
+        Padding: 15px 10px;
+        Text-align: center;
+    }
+
+    .logo {
+        Width: 110px;
+    }
+
+    .logo-section h1 {
+        Font-size: 24px;
+    }
+
+    
+    .navigation-table {
+        Width: 100% !important;
+        Margin: 10px auto !important;
+    }
+
+    .navigation-table th {
+        Padding: 2px;
+    }
+
+    .navigation-table th a {
+        Font-size: 12px;
+        Padding: 8px 2px;
+        Min-width: 0;
+        Border-radius: 5px;
+    }
+
+
+    H2 {
+        Font-size: 22px;
+        Margin: 20px 5px;
+    }
+
+    H3 {
+        Font-size: 20px;
+    }
+
+
+    Table {
+        Width: 100%;
+        Font-size: 14px;
+    }
+
+    Td {
+        Padding: 10px;
+    }
+
+
+    Body ul {
+        Width: 95%;
+        Padding: 10px;
+    }
+
+    Body li {
+        Font-size: 15px;
+        Padding: 5px;
+    }
+
+    .services-intro {
+        Width: 95%;
+        Font-size: 15px;
+    }
+
+
+    .mission-vision {
+        Width: 95%;
+        Flex-direction: column;
+        Gap: 15px;
+    }
+
+    .mission,
+    .vision {
+        Width: 100%;
+        Padding: 15px;
+    }
+
+
+    Form {
+        Width: 100%;
+    }
+
+    Form table {
+        Width: 100%;
+    }
+
+    Form td {
+        Display: block;
+        Width: 100% !important;
+        Text-align: left !important;
+    }
+
+    Input,
+    Textarea {
+        Width: 100%;
+        Font-size: 16px;
+    }
+
+    Input[type=”submit”],
+    Input[type=”reset”] {
+        Width: 120px;
+    }
+
+
+    .faq {
+        Width: 95%;
+    }
+
+    .faq-item {
+        Padding: 15px;
+    }
+
+    .faq-item h3 {
+        Font-size: 18px;
+    }
+
+
+    .contact-table {
+        Width: 100%;
+    }
+
+    .contact-table td {
+        Font-size: 14px;
+        Padding: 10px;
+    }
+
+    Footer {
+        Width: 100%;
+        Font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .logo {
+        Width: 90px;
+    }
+
+    .logo-section h1 {
+        Font-size: 21px;
+    }
+
+    .navigation-table th a {
+        Font-size: 10px;
+        Padding: 7px 1px;
+    }
+
+    H2 {
+        Font-size: 20px;
+    }
+
+    H3 {
+        Font-size: 18px;
+    }
+
+    Body li {
+        Font-size: 14px;
+    }
+
+    Input[type=”submit”],
+    Input[type=”reset”] {
+        Width: 105px;
+        Font-size: 13px;
+    }
+}
+.logo-section {
+    Position: fixed !important;
+    Top: 0;
+    Left: 0;
+    Width: 100%;
+    Height: 200px;
+    z-index: 1000;
+    background-color: #198754 !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-table {
+    Position: fixed !important;
+    Top: 215px;
+    Left: 5%;
+    Width: 90% !important;
+    z-index: 1001;
+
+    margin: 0 !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.navigation-table th {
+    Background-color: white !important;
+    Border: none !important;
+    Padding: 5px;
+}
+.navigation-table th a {
+    Display: block;
+    Width: 100%;
+    Background-color: #f4c542 !important;
+    Color: #222 !important;
+    Padding: 12px 5px;
+    Text-align: center;
+    Text-decoration: none;
+    Border-radius: 8px;
+}
+.navigation-table th a:hover,
+.navigation-table th a.active {
+    Background-color: #198754 !important;
+    Color: white !important;
+}
+Body {
+    Padding-top: 310px !important;
+}
+@media (max-width: 900px) {
+
+    .logo-section {
+        Height: 180px;
+    }
+
+    .navigation-table {
+        Top: 195px;
+    }
+
+    Body {
+        Padding-top: 285px !important;
+    }
+
+}
+@media (max-width: 600px) {
+
+    .logo-section {
+        Height: 170px;
+        Padding: 10px;
+    }
+
+    .logo {
+        Width: 100px;
+        Height: 100px;
+    }
+
+    .logo-section h1 {
+        Font-size: 22px;
+    }
+
+    .navigation-table {
+        Top: 180px;
+        Left: 2%;
+        Width: 96% !important;
+    }
+
+    .navigation-table th {
+        Padding: 2px;
+    }
+
+    .navigation-table th a {
+        Font-size: 11px;
+        Padding: 8px 2px;
+    }
+
+    Body {
+        Padding-top: 265px !important;
+    }
+
+}
+
